@@ -1,15 +1,24 @@
-//fullScreen();
-size(500, 600);
-String title= "Wahoo!";
+//Global Variables
+String title; 
 PFont titleFont;
-String [] fontList = PFont.list ();
-println("Start of Console");
-printArray (fontList); //For listing all possible fonts choose, then createFont
-titleFont = createFont ("Algerian", 55); //must also tools/ create font/ find font/ ok
+float titleWidth;
+float titleHeight;
+float titleFontSize;
+//String[] fontList = PFont.list(); //To list all fonts available on system
+String titleFontString; 
+float titleFontDecrease;
 
-rect(width*1/4, height*0, width*1/2, height*1/10);
-fill(#2C08FF); // Purple ink copied from color selector
-textAlign (CENTER, CENTER); // Align X&Y
-textFont(titleFont, 52); //change the number until it fits
-text(title, width*1/4, height*0, width*1/2, height*1/10);
-fill(255); // Reset to white for rest of the program
+void setup () {
+  //fullScreen();
+ size(600, 600);
+ textSetup();
+
+println("Start of Console");
+
+GUI_setup();
+}
+
+void draw () {
+ textDraw(); // Title
+ //textDraw(); // Footer
+}
