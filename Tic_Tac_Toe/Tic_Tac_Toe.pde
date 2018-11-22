@@ -8,9 +8,11 @@ PFont titleFont;
 void setup() {
  size(600, 600);
   GUI_Design();
- 
-
 }
+
+void draw () {
+println (mouseX +"," + mouseY);
+} 
 
 void keyPressed() { 
   
@@ -20,3 +22,8 @@ void keyPressed() {
     }
   }
 }
+
+
+
+
+ 
