@@ -25,10 +25,44 @@ void GUI_Design() {
   rect(424, 11, 145, 35);
   rect(243, 64, 125, 75);
   rect(424, 68, 125, 75);
-  rect(23, 9, 145, 35);
-  rect();
- 
+  rect(23, 9, 145, 35); 
+  rect(26, 59, 145, 35); 
+  rect(22, 113, 145, 35); 
 
-  //Scoreboard
+  //TEXT
+  fill(0);
+  // EASY BUTTON
+  textSize(40);
+  text("EASY", 39, 40);
+ 
+  
+ //MEDIUM BUTTON
+ 
+   textSize(30);
+  text("MEDIUM", 35, 87);
+  
+  
+  //HARD BUTTON
+   textSize(40);
+  text("HARD", 36, 144);
+  
+  
+  //PLAYER 1
+  textSize(30);
+  text("PLAYER 1", 237, 40);
+  
+  //PLAYER 2
+  textSize(30);
+  text("PLAYER 2", 432, 42);
+  
+  //X PLAYER
+  textSize(60);
+  text("X:", 257, 128);
+  
+  //Y PLAYER
+  textSize(60);
+  text("O:", 434, 129);
+  
+ 
  
 }
