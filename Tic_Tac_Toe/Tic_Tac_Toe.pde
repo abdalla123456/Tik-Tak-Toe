@@ -1,13 +1,26 @@
+String string;
+String title;
+String titlefont;
+PFont titleFont;
+float geometry;
+float titleWidth;
+float titleHeight;
+String footer; 
+float footerY;
 color purple = #FF03F3;
 color yellow = #FFF703;
 color regularButton = purple;
 color hoverOverButton = yellow;
 String quit= "Quit";
-PFont titleFont;
+String easy = "EASY";
+String medium = "MEDIUM";
+String hard = "HARD";
+
 
 void setup() {
  size(600, 600);
   GUI_Design();
+  textSetup();
 }
 
 void draw () {
@@ -22,8 +35,3 @@ void keyPressed() {
     }
   }
 }
-
-
-
-
- 

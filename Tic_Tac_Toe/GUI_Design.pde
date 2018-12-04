@@ -32,15 +32,13 @@ void GUI_Design() {
   //TEXT
   fill(0);
   // EASY BUTTON
-  textSize(40);
-  text("EASY", 39, 40);
+  textDraw(easy, titleFont, height, 0, CENTER, CENTER, 39, 40, 50, 50);
+  
  
   
  //MEDIUM BUTTON
+  textDraw(easy, titleFont, height, 0, CENTER, CENTER, 39, 40, 50, 50);
  
-   textSize(30);
-  text("MEDIUM", 35, 87);
-  
   
   //HARD BUTTON
    textSize(40);
